@@ -1,0 +1,41 @@
+.note-page {
+    background: repeating-linear-gradient(
+        transparent,
+        transparent 30px,
+        #b4b3b3 30px,
+        #b4b3b3 31px
+    ) !important;
+}
+
+.note-page-mobile {
+    background: repeating-linear-gradient(
+        transparent,
+        transparent 25px,
+        #b4b3b3 25px,
+        #b4b3b3 26px
+    ) !important;
+}
+
+.note-page-dark {
+    background: repeating-linear-gradient(
+        transparent,
+        transparent 30px,
+        rgb(103, 103, 103) 30px,
+        rgb(103, 103, 103) 31px
+        
+    ) !important;
+}
+
+.speech-bubble:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: rgb(246, 213, 92);
+    border-bottom: 0;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
